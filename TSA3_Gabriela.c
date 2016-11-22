@@ -305,7 +305,7 @@ int main(){
     break;
    }
 
-   case 0: break;
+   case 0: exit(0);break;
    getchar();
    break;
   }

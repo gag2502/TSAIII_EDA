@@ -42,9 +42,9 @@ noLista *carregarLista(noLista *lista) {
     string[1] = '\0';
     string2[1] = '\0';
 
-	if(arquivo == NULL)
+    if(arquivo == NULL)
     {
-        printf("Erro ao abrir o arquivo.\n");
+        printf("Falha na abertura do arquivo\n");
     }
 	else
 		while((caractere = fgetc(arquivo)) != EOF)
